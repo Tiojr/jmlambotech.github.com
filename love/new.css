@@ -1,0 +1,143 @@
+body{
+	font-style: arial;
+	background-color: black;
+}
+.animation-box{
+	width: 75%;
+	height: 27.5rem;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.first-text{
+	font-size: 4.0rem;
+	color: white;
+	left: 2.5rem;
+	top: 5rem;
+	position: absolute;
+	opacity: 0;
+	animation-name: love ;
+	animation-duration: 5s;
+
+}
+.second-text{
+	font-size: 3rem;
+	color: rgb(0, 255, 106);
+	top: 8rem;
+ 
+	position: absolute;
+	opacity:  ;
+	animation-name: love2 ;
+	animation-duration: 5s;
+  animation-delay:  4.5s ;
+}
+.third-text{
+	font-size: 2.0rem  ;
+	color: white;
+	left: 45%;
+	top: 45%;
+	position: absolute;
+	opacity: 0   ;
+	animation-name: love3 ;
+	animation-duration: 5s;
+	animation-delay: 9s;
+	transform: rotate(-90deg);
+ white-space: nowrap;
+}
+
+.fourth-text{
+	font-size: 3.0rem;
+	color: orangered;
+	left: 10%;
+	top:10rem;
+	position: absolute;
+	opacity:0;
+	animation-name: love4;
+	animation-duration: 13.5s;
+	animation-delay: 10s;
+}
+.fifth-text{
+	font-size: 3.5rem;
+	color: rgb(229, 249, 99);
+	left: 5%;
+	bottom:25%;
+	position: absolute;
+	opacity:0;
+	animation-name: love5;
+	animation-duration: 17.5s;
+	animation-delay: 12s;
+
+}
+@keyframes love {
+  0%{
+		top: -3rem;
+		opacity: 0;
+  }
+  75%{
+		top: 50%;
+		opacity: 1;
+  }
+  100%{
+		opacity: 0;
+  }
+  }
+}
+@keyframes love2  {
+  0%{
+	top: -3rem;
+		opacity: 0;
+  }
+  75%{
+top: 45%;
+		opacity: 1;
+  }
+  100%{
+
+		opacity: 0;
+  }
+	}
+	@keyframes love3 {
+		0%{
+			right: -3rem;
+			opacity: 0;
+		}
+		75%{
+			right: 10rem;
+			opacity: 1;
+		}
+		
+		100%{
+	 right: 10rem;
+			opacity: 0;
+		}
+		}
+		@keyframes love4 {
+			0%{
+				right: -3rem;
+				opacity: 0;
+			}
+			75%{
+		top: 45%;
+				opacity: 1;
+			}
+			
+			100%{
+				right: 10rem;
+				opacity: 0;
+			}
+			}
+			@keyframes love5 {
+				0%{
+ 
+					opacity: 0;
+				}
+				75%{
+	 
+					opacity: 1;
+				}
+				
+				100%{
+			 
+					opacity: 0;
+				}
+				}

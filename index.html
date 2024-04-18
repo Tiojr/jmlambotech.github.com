@@ -1,0 +1,653 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> ByteCraft Solution </title>
+	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/font-awesome-4.7.0/css/font-awesome.css">
+	<style>
+		.logo {
+			background: -webkit-linear-gradient(red 30%, orangered 40%, rgb(255, 157, 0));
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			font-size: 90px;
+			margin-top: 50px;
+		}
+
+		.insta-icon {
+			background: -webkit-radial-gradient(33% 100% circle, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 62%, #515ecf);
+			background: radial-gradient(circle at 33% 100%, #fed373 4%, #f15245 30%, #d92e7f 62%, #9b36b7 62%, #515ecf);
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		.company {
+			color: white;
+			margin-left: 100px;
+			margin-top: -60px;
+			background: -webkit-linear-gradient(red 30%, orangered 40%, rgb(255, 157, 0));
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+		}
+
+		@media only screen and (max-width:950px) {
+
+			nav ul {
+				position: fixed;
+				top: 100px;
+				left: 0;
+				background: transparent;
+				width: 100%;
+				overflow: hidden;
+				transition: max-height 0.5s;
+			}
+
+			nav ul li {
+				display: block;
+				margin-right: 50px;
+				margin-top: 10px;
+				margin-bottom: 10px;
+			}
+
+			#navbar {
+				display: block;
+				cursor: pointer;
+				margin-top: -80px;
+				margin-bottom: 90px;
+
+			}
+		}
+
+		@media only screen and (max-width: 650px) {
+			.row {
+				text-align: center;
+			}
+
+			.col-2,
+			.col-3,
+			.col-4 {
+				flex-basis: 100%;
+			}
+
+		}
+	</style>
+</head>
+
+<body>
+
+	<!----------------header------------------>
+
+	<div class="header" id="home">
+
+
+		<div class="container">
+
+			<i class="fa fa-fire logo"></i>
+
+			<h1 class="company "> Tio junior technology</h1>
+
+			<nav>
+				<ul id="MenuItems">
+					<li>
+						<a href="#home"> Home </a>
+					</li>
+					<li>
+						<a href="#services"> Services </a>
+					</li>
+					<li>
+						<a href="#technicians"> Technicians </a>
+					</li>
+					<li>
+						<a href="#contact"> Contact </a>
+					</li>
+				</ul>
+				<i class="fa fa-bars" id="navbar" onclick="menuToggle()"></i>
+			</nav><!--/nav-->
+
+			<div class="row">
+
+				<div class="col-2">
+					<h1 style="color: yellowgreen;"> Expert Support <br> For
+						Your Digital World </h1>
+
+					<p>
+						Whether You Are Facing Tech problems Or Seeking Expert Service, <br>
+						You're In The Right Place. I'm Here To Provide Tailored Solutions <br>
+						To Meet Your Unique Needs. Let's dig in The Digital Realm Together.
+					</p>
+
+				</div><!--./col-2-->
+				<img src="image/tiojr.jpg" class="owner">
+
+			</div><!--./row-->
+
+		</div><!--./container-->
+
+	</div><!--./header-->
+
+	<!-----------images for some source codes---------->
+
+	<div class="source-code" id="source-code">
+		<div class="small-container">
+			<div class="row">
+
+				<div class="col-3">
+					<img src="image/O76KPGOZ4z.jpg" class="source-img">
+				</div><!--./col-3-->
+
+				<div class="col-3">
+					<img
+						src="image/software-source-code-programming-code-programming-code-on-computer-screen-developer-working.jpg"
+						class="source-img">
+				</div><!--./col-3-->
+
+				<div class="col-3">
+					<img src="image/code-SS_634574354-1920x1080-1.jpg" class="source-img" style=" 
+						height: 210px;">
+				</div><!--./col-3-->
+
+			</div><!--./row-->
+
+		</div><!--./small-container-->
+
+
+
+	</div><!---./source-code-->
+
+	<!----------- services  ---------->
+
+	<div id="services">
+		<div class="small-container">
+			<h2 class="title" style="color: red;">Services </h2>
+
+			<div class="row">
+
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/download6.jpg">
+					</div>
+
+					<h4> Computer Maintenance </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Reparing your computer in any situation that we can find in the computer
+					</p>
+					<p style="color: hsl(0, 0%, 51%);"> Price Depend On The Problem </p>
+
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (6).jpeg">
+					</div>
+
+					<h4> Basic Web Development </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating Font-End Of A Website that is active and
+						sutable in the posting and innovation of different ideas </p>
+					<p style="color: hsl(0, 0%, 51%);"> Tsh 300,000 </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (7).jpeg">
+					</div>
+
+					<h4> Pro Web Development </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating Full Website With Both Font-End And Back-End Of A Website</p>
+					<p style="color: hsl(0, 0%, 51%);"> Tsh 500,000 </p>
+				</div><!--./col-4-->
+
+
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (1).jpeg">
+					</div>
+
+					<h4> Database Development </h4>
+					<p style="color: hsl(0, 0%, 75%);">Creating A Table Within A Database</p>
+					<p style="color: hsl(0, 0%, 51%);"> Tsh 700,000 </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (8).jpeg">
+					</div>
+
+					<h4> Applications Development </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating An Application For Any Oparating System </p>
+					<p style="color: hsl(0, 0%, 51%);"> Tsh 700,000 </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (3).jpeg">
+					</div>
+
+					<h4> Graphic Design </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating Logo & Animations, Video & Pictures Editing Etc </p>
+					<p style="color: hsl(0, 0%, 51%);"> Price Depend On The Service </p>
+				</div><!--./col-4-->
+
+			</div><!--./row-->
+
+			<h2 class="title" style="color: maroon;"> OTHER THINGS THAT YOU CAN FIND </h2>
+
+			<div class="row">
+
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (2).jpeg">
+					</div>
+
+					<h4> AI Development </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating An Artificial Intelligence </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (4).jpeg">
+					</div>
+
+					<h4> Robotic Enginnering </h4>
+					<p style="color: hsl(0, 0%, 75%);">Creating a table within a database</p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/download.jpeg">
+					</div>
+
+					<h4> Networking </h4>
+					<p style="color: hsl(0, 0%, 75%);"> The Working Or Organisation Of A Network</p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (5).jpeg">
+					</div>
+
+					<h4> Computer science  </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Reparing your of computer hard ware and software </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (6).jpeg">
+					</div>
+
+					<h4> Web Development </h4>
+					<p style="color: hsl(0, 0%, 75%);"> Creating a website </p>
+				</div><!--./col-4-->
+
+				<div class="col-4">
+
+					<div class="img">
+						<img src="image/mr right (1).jpeg">
+					</div>
+
+					<h4>  </h4>
+					<p style="color: hsl(0, 0%, 75%);">Creating a table within a database</p>
+				</div><!--./col-4-->
+
+
+			</div><!--./row-->
+
+		</div><!--./small-container-->
+	</div><!--./services-->
+
+
+
+	<!---------------- Advertsment ---------------->
+
+	<div class="advertsment">
+		<div class="small-container">
+
+			<div class="row">
+				<div class="col-2">
+
+					<img src="image/Screenshot_20230828-151152.png" class="advertsment-img">
+
+				</div><!--col-2-->
+
+				<div class="col-2">
+					<h1 style="color: maroon"> ABOUT THE PLATFORM</h1>
+					<p style="font-size: large; color: silver;"> Exlusively Available From tiojuniour technology </p><br>
+					<small>
+						<p>
+							We always deal with things that a giving problem to the people that are using the platfom
+							we are here to give solution to the problems that you face when using your computere in making different
+							things
+							the only thing that can make your work esy to do is this, we provide education to the buginers in computer
+							and make
+							them the most known expacts in many ways in life.
+							Our goal is making the IT be the better Place for every one and to innovate where necceessary
+						</p>
+					</small><br>
+
+				</div><!--col-2-->
+			</div><!--./row-->
+
+
+		</div><!--./small-container-->
+	</div><!--./advertsment-->
+
+	<!------------ technicians ------------->
+
+
+	<div class="programmers" id="technicians">
+
+		<div class="small-container">
+
+			<h2 class="title" style="color: maroon;"> TECHNICIANS </h2>
+
+			<div class="row">
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="image/IMG_5373.JPG" style="
+							width: 100%;
+							height: 100%;
+							border-radius: 30px;">
+
+					</div><br>
+					<h3> Marwa Marwa </h3>
+
+					<p>
+						An IT Expert Who Is Skilled At Web Development For Both Font-End And Back-end,
+						Computer Maintenance, Application Development And Also Graphic Design
+					</p>
+
+				</div><!--./col-3-->
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="">
+
+					</div><br>
+
+					<h3> MR Jerome </h3>
+
+					<p class="about">
+						One of the best technicians ever known he is the one that knows more about networking and apps
+						he is good in soft and hard ware reparement.
+					</p>
+
+				</div><!--./col-3-->
+
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="image/Grace.jpg" style="
+								width: 100%;
+								height: 100%;
+								border-radius: 30px;
+								object-fit: cover;">
+
+					</div><br><!--./img-->
+
+					<h3> Grace Remce </h3>
+
+					<p class="about">
+						Grace Remce Is The Programmer With Skills Like Application Development, Website Development,
+						Database Development, Artificial Intelligence Development And Robotics Enginnering
+					</p>
+
+
+				</div><!--./col-3-->
+
+
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="image/David.jpg" style="
+							width: 100%;
+							height: 100%;
+							border-radius: 30px;">
+
+					</div><br>
+
+					<h3> Roster </h3>
+
+					<p>
+						Roster Is Among The Best Programmers Who Has Got An IT skills Like Application Development,
+						Website Development, Database Development And Graphic design
+					</p>
+
+				</div><!--./col-3-->
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="image/Rama.jpg" style="
+							width: 100%;
+							height: 100%;
+							border-radius: 30px;
+							object-fit: cover;">
+
+					</div><br>
+
+					<h3> Hustle Boy </h3>
+
+					<p>
+						Hustle Boy Is An IT Expert With Alot Of Skills Like Web Development, Application Development And Others But
+						He Has Based Much On
+						Graphics Design, That Makes Him To be More Expert On Graphics Design.
+					</p>
+
+				</div><!--./col-3-->
+
+				<div class="col-3">
+
+					<div class="img">
+
+						<img src="image/tiojr.jpg" style="
+							width: 100%;
+							height: 100%;
+							border-radius: 30px;
+							object-fit: cover;">
+
+					</div><br>
+
+					<h3> Tio Jr </h3>
+
+					<p>
+						Tio Jr Is A Technician Whose Professional Has Based On Various Skills Like Computer Maintenance, Web
+						Development, Database Management, Networking And Some Many
+						Other Skills.
+					</p>
+
+				</div><!--./col-3-->
+
+
+			</div><!--./row-->
+
+		</div><!--./small-container-->
+
+	</div><!--./programmers-->
+
+
+	<!----------------Contact Form---------->
+
+	<div class="container" id="contact">
+		<div class="row">
+			<div class="col-12">
+				<div class="form">
+
+					<form action="https://formspree.io/f/xjvnppqw" method="POST">
+						<i class="fa fa-envelope fa-3x center" id="icon"></i>
+						<h1 class="h1"> Contact </h1>
+						<div class="input-group">
+							<label class="input-group-text " for="username"> Username </label>
+							<input type="text" class="form-control" id="username" name="username" required>
+						</div>
+
+						<div class="input-group">
+							<label class="input-group-text " for="email"> Email </label>
+							<input type="email" class="form-control" id="email" name="email" required>
+						</div>
+
+						<div class="input-group">
+							<label class="input-group-text " for="desc"> Description </label>
+							<textarea class="form-control" id="desc" required name="desc"></textarea>
+						</div>
+
+						<input type="submit" class="btn btn-outline-secondary form-control" value="Submit">
+
+						<div class="cncts">
+
+							<abbr title="Phone Contact">
+								<a href="tel:+255 710874553">
+									<i class="fa fa-phone cont-icon"></i>
+								</a>
+							</abbr>
+
+							<abbr title="Whatsapp">
+								<a href="#">
+									<i class="fa fa-whatsapp cont-icon" style=" color: green;"></i>
+								</a>
+							</abbr>
+
+							<abbr title="Instagram">
+								<a href="#">
+									<i class="fa fa-instagram cont-icon insta-icon"></i>
+								</a>
+							</abbr>
+
+							<abbr title="Telegram">
+								<a href="#">
+									<i class="fa fa-telegram cont-icon" style=" color: #3399cc;"></i>
+								</a>
+							</abbr>
+
+
+						</div> <!--/.cncts-->
+
+					</form><!--/form-->
+				</div><!--/.form-->
+
+			</div><!--/.col-12-->
+		</div><!--/.row-->
+	</div><!--/.container-->
+
+	<!-------------- footer ---------------->
+
+	<div class="footer" id="contact">
+
+		<div class="container">
+			<div class="row">
+
+				<div class="footer-col-3">
+
+					<h3> Contact Us </h3>
+
+					<div>
+						<p style="font-weight: bold;">Let us serve you</p><br>
+						<ul style="list-style-type: none; padding: 0;">
+							<li style="display: flex; align-items: center;"><i class="fa fa-home cont-icon"
+									style="margin-right: 4px; margin-top: 3px;"></i> P.O.BOX </li><br>
+							<li style="display: flex; align-items: center;"><i class="fa fa-phone cont-icon"
+									style="margin-right: 4px;  margin-top: 3px;"></i> +255 710874553</li><br>
+							<li style="display: flex; align-items: center;"><i class="fa fa-globe cont-icon"
+									style="margin-right: 5px;  margin-top: 3px;"></i>www.jmlambotech04.com</li><br>
+							<li style="display: flex; align-items: center;"><i class="fa fa-envelope cont-icon"
+									style="margin-right: 5px;  margin-top: 3px;"></i> jmlambotech04@gmail.com</li><br>
+						</ul>
+					</div>
+				</div><!--./footer-col-3 -->
+
+				<div class="footer-col-3">
+
+					<p> You can support us and also contact us using the social media and
+						also you can ask questions and if you need more clarification we are
+						here to help
+					</p>
+
+				</div>
+				<!--./footer-col-3 -->
+
+				<div class="footer-col-3">
+					<h2>Follow Us</h2>
+
+					<img src="./assets/images/about/home_line.png" alt="">
+
+					<div class="social-icons">
+
+						<li><a href="#"><i class="fa fa-facebook cont-icon"></i></a></li>
+
+						<li><a href="#"><i class="fa fa-telegram cont-icon"></i> </a></li>
+
+						<li><a href="#"><i class="fa fa-linkedin cont-icon"></i> </a></li>
+
+					</div>
+
+
+				</div>
+
+			</div>
+
+			<div class="col-md-3">
+
+				<div class="address">
+
+					<h2>Address</h2>
+
+					<img src="./assets/images/about/home_line.png" alt="" class="img-fluid">
+
+					<div class="address-links">
+
+						<li class="address1"><i class="fa fa-location-dot cont-icon"></i> MAGOMENI mapipa the jmlambotech</li>
+						<li><a href="">
+								<i class="fa fa-phone cont-icon"></i> +255 710874553</a></li>
+
+						<li><a href=""><i class="fa fa-envelope cont-icon"></i> jmlambotech04@gmail.com</a></li>
+					</div>
+
+				  
+
+			   </div>
+
+		   </div>
+
+
+	   </div>
+
+	</footer>
+	<!-- footer section end -->
+	</div>
+	<!--./footer-col-3 -->
+
+	</div><!--./row-->
+	<hr>
+	<p class="copyright">&copy; <span id="copyright-year"></span> ByteCraft Solution. All rights reserved</p>
+	</div><!--container-->
+
+	</div><!--./footer-->
+
+	<!-----------------------JavaScript----------------------->
+	<script type="text/javascript" src="index.js"></script>
+</body>
+
+</html>
